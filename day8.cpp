@@ -24,5 +24,8 @@ int main()
         cout << "not a palindrome" << endl;
     }
 
+    cout << c << endl;
+    cout << d << endl;
+
     return 0;
 }
