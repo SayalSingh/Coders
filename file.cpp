@@ -1,3 +1,6 @@
+// 24-06-2024
+//  File Handling
+
 #include <iostream>
 #include <stdlib.h>
 #include <fstream>
@@ -8,15 +11,17 @@ int main()
 {
     system("cls");
 
-    fstream f;
-    // opening file using fstream
-    f.open("hulk.txt");
-    string word;
-    while (f >> word)
-    {
-        cout << word << " ";
-    }
-    f.close();
+    /*
+    // Read from a file
+     fstream f;
+     // opening file using fstream
+     f.open("hulk.txt");
+     string word;
+     while (f >> word)
+     {
+         cout << word << " ";
+     }
+     f.close(); */
 
     // ofstream obj("hulk.txt", ios::app);
     // obj << " hello world";
